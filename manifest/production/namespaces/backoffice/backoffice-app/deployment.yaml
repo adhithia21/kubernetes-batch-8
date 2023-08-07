@@ -11,6 +11,8 @@ spec:
       labels:
         app: backoffice-app
     spec:
+      imagePullSecrets:
+      - name: secret-private-registry
       containers:
       - name: backoffice-app
         image: adhithia21/backoffice-app:4
