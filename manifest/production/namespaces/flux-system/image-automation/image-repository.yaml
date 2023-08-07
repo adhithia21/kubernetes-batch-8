@@ -1,0 +1,9 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta2
+kind: ImageRepository
+metadata:
+  name: backoffice-app
+spec:
+  image: adhithia21/backoffice-app
+  interval: 1m
+  secretRef:
+    name: secret-private-registry
