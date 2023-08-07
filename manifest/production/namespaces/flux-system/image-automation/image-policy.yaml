@@ -8,3 +8,14 @@ spec:
   policy:
     numerical:
       order: asc
+---
+# apiVersion: image.toolkit.fluxcd.io/v1beta2
+# kind: ImagePolicy
+# metadata:
+#   name: payment-app
+# spec:
+#   imageRepositoryRef:
+#     name: payment-app
+#   policy:
+#     numerical:
+#       order: asc
