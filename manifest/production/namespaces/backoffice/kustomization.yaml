@@ -3,6 +3,6 @@ kind: Kustomization
 namespace: backoffice
 
 resources:
-  - ../../../module/dockerconfig.yaml
+  - ../../../module/dockerconfigjson
   - namespace.yaml
   - backoffice-app
